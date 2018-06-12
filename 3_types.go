@@ -29,13 +29,13 @@ func main()  {
 
 	fmt.Println(result)
 
-	var c int = 89
+	var c = 89 // If no variable is specified it will be inferred from the right hand side
 	d := 95
 
 	fmt.Println("value of a is", c, "and b is", d)
 	fmt.Printf("type of a is %T, size of a is %d bytes", c, unsafe.Sizeof(c)) //type and size of a
 	fmt.Printf("\ntype of b is %T, size of b is %d bytes", d, unsafe.Sizeof(d)) //type and size of b
 
-	first_name := "krishna"
+	firstName := "krishna"
 	fmt.Println("\nMy first name is %s", first_name)
 }

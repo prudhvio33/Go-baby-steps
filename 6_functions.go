@@ -7,13 +7,13 @@ func functionname(parametername type) returntype {
  	//function body
 }
  */
-func add_2_numbers(a int, b float32) int  {
+func add2Numbers(a int, b float32) int  {
 	c := a + int(b)
 	return c
 }
 
 // Multiple return values
-func rectangle_props(a int, b int)(int, int) {
+func rectangleProps(a int, b int)(int, int) {
 	return a, b
 }
 

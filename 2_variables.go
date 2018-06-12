@@ -13,7 +13,7 @@ func main()  {
 	fmt.Println("My age is: ", age)
 
 	// If a variable has an inital value, specifying type is not required
-	var new_age = 24
+	var newAge = 24
 	fmt.Println("My age is: ", new_age)
 
 	// Multiple variables

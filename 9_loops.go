@@ -4,9 +4,11 @@ import "fmt"
 
 /*
 	for loop
+	--------
 		for initialisation; condition; post {}
 
 	infinite loop
+	-------------
 		for {}
  */
 func main()  {

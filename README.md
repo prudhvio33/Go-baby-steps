@@ -1,3 +1,3 @@
 # Personal Go-Lang exercises
 
-[![N|Solid](golang.png)]
+![N|Solid](golang.png)

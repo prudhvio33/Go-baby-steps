@@ -25,6 +25,7 @@ func rectProps(length, width float64)(area, perimeter float64) {
 }
 
 func main()  {
-	fmt.Println(add_2_numbers(10, 2.5))
-	a, b := rectangle_props(10, 12)
+	fmt.Println(add2Numbers(10, 2.5))
+	a, b := rectangleProps(10, 12)
+	fmt.Println(a, b)
 }

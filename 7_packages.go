@@ -15,4 +15,5 @@ package main
 
  func main() {
  	rectangle_package.Area(10, 20)
+ 	rectangle_package.Circumference(30.0)
  }

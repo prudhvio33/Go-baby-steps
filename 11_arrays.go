@@ -18,12 +18,21 @@ func main()  {
 	/*
 		Arrays in Go are value types and not reference types. This means that when they are assigned to a new variable,
 	a copy of the original array is assigned to the new variable. If changes are made to the new variable, it will not
-	be reflected in the original array.
-	 */
+	be reflected in the original array. Similarly when arrays are passed to functions as parameters, they are passed by
+	value and the original array in unchanged.
 
-	 fmt.Println("Length of array ", len(a))
+	 */
+	e := [...]string{"usa", "canada", "china"}
+	f := e
+	fmt.Println(e) // ["usa", "canada", "china"]
+	f[0] = "Singapore"
+	fmt.Println(f) // ["Singapore", "canada", "china"]
+
+	fmt.Println("Length of array ", len(a))
 
 	for i, v := range a {//range returns both the index and value
 		fmt.Printf("%d the element of a is %.2f\n", i, v)
 	}
+
+
 }

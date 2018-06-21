@@ -17,8 +17,22 @@ import (
 		complex64, complex128
 		byte is an alias of uint8
 		rune is an alias of int32
+		error
 
 	string
+
+
+	var variableName type
+
+	var vname1, vname2, vname3 type // define three variables which types are "type"
+
+	var variableName type = value
+
+	var vname1, vname2, vname3 type = v1, v2, v3
+
+	var vname1, vname2, vname3 = v1, v2, v3
+
+	vname1, vname2, vname3 := v1, v2, v3 	// It has one limitation: this form can only be used inside of a functions.
 */
 
 func main()  {
@@ -37,7 +51,7 @@ func main()  {
 	fmt.Printf("\ntype of b is %T, size of b is %d bytes", d, unsafe.Sizeof(d)) //type and size of b
 
 	firstName := "krishna"
-	fmt.Println("\nMy first name is %s", first_name)
+	fmt.Println("\nMy first name is %s", firstName)
 }
 
 

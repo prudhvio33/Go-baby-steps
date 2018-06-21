@@ -4,8 +4,13 @@ import "fmt"
 
 func main() {
 	/*
+		slice is not really a dynamic array. It's a reference type. slice points to an underlying array whose declaration
+		is similar to array, but doesn't need length.
+
+		var fslice []int
+
 		A slice does not own any data of its own. It is just a representation of the underlying array. Any modifications
-	done to the slice will be reflected in the underlying array.
+		done to the slice will be reflected in the underlying array.
 	 */
 	var a = [5]int{1, 2, 3, 4, 5}
 	var b = a[1:3]
